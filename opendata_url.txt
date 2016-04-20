@@ -1,0 +1,9 @@
+http://www.city.kobe.lg.jp/life/access/transport/subway/img/open_seishin_w_east.csv
+http://www.city.kobe.lg.jp/life/access/transport/subway/img/open_seishin_w_west.csv
+http://www.city.kobe.lg.jp/life/access/transport/subway/img/open_seishin_h_east.csv
+http://www.city.kobe.lg.jp/life/access/transport/subway/img/open_seishin_h_west.csv
+http://www.city.kobe.lg.jp/life/access/transport/subway/img/open_kaigan_w_east.csv
+http://www.city.kobe.lg.jp/life/access/transport/subway/img/open_kaigan_w_west.csv
+http://www.city.kobe.lg.jp/life/access/transport/subway/img/open_kaigan_h_east.csv
+http://www.city.kobe.lg.jp/life/access/transport/subway/img/open_kaigan_h_west.csv
+http://www.city.kobe.lg.jp/life/access/transport/subway/img/open_kobe_subway_add.csv

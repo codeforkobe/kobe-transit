@@ -1,0 +1,1 @@
+geo data is fetched from dbpedia under [CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/) license.

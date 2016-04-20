@@ -1,0 +1,30 @@
+trans_id,lang,translation
+神戸市,en,City of Kobe
+西神・山手線,en,Seishin-Yamate Line
+海岸線,en,Kaigan Line
+谷上,en,Tanigami
+新神戸,en,Shinkobe
+三宮,en,Sannomiya
+県庁前,en,Kenchomae
+大倉山,en,Okurayama
+湊川公園,en,Minatogawakoen
+上沢,en,Kamisawa
+長田,en,Nagata
+新長田,en,Shinnagata
+板宿,en,Itayado
+妙法寺,en,Myohoji
+名谷,en,Myodani
+総合運動公園,en,Sogoundokoen
+学園都市,en,Gakuentoshi
+伊川谷,en,Ikawadani
+西神南,en,Seishin-minami
+西神中央,en,Seishin-chuo
+三宮・花時計前,en,Sannomiya-Hanadokeimae
+旧居留地・大丸前,en,Kyukyoryuchi-Daimarumae
+みなと元町,en,Minatomotomachi
+ハーバーランド,en,Harborland
+中央市場前,en,Chuoichibamae
+和田岬,en,Wadamisaki
+御崎公園,en,Misakikoen
+苅藻,en,Karumo
+駒ヶ林,en,Komagabayashi
