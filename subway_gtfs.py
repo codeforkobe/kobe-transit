@@ -156,12 +156,22 @@ if __name__=="__main__":
 	
 	for name, route in route_stops:
 		info = stop_info[(name, route)]
+		lat = geo[name]["lat"]
+		lon = geo[name]["lon"]
+		# 新長田はくっついているけれど、S09 と K10 は少し離れている
+		if info["駅番号"]=="K10":
+			lat = 34.657055
+			lon = 135.1441888
+		elif info["駅番号"]=="S09":
+			lat = 34.657747
+			lon = 135.144410
+		
 		stops.append(dict(
 			stop_id=info["駅番号"],
 			stop_code=info["駅番号"],
 			stop_name=name,
-			stop_lat=geo[name]["lat"],
-			stop_lon=geo[name]["lon"],
+			stop_lat=lat,
+			stop_lon=lon,
 			stop_url=info["駅構内図"],
 			location_type=0,
 			parent_station=name,
@@ -244,4 +254,4 @@ if __name__=="__main__":
 		write("stop_times.txt")
 		write("calendar.txt")
 		write("feed_info.txt")
-		write("translations.txt")
+#		write("translations.txt")
