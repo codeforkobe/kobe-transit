@@ -244,3 +244,4 @@ if __name__=="__main__":
 		write("stop_times.txt")
 		write("calendar.txt")
 		write("feed_info.txt")
+		write("translations.txt")

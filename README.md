@@ -1,9 +1,17 @@
 GTFS
 ====
-神戸市地下鉄の [GTFS](https://developers.google.com/transit/gtfs/reference) を作成します。
+神戸市地下鉄の [GTFS](https://developers.google.com/transit/gtfs/reference) 
+形式ファイル `kobe_subway_gtfs.zip` を作成します。
 
 GTFS 拡張仕様の多言語（multilingual）対応を使います。
 https://support.google.com/transitpartners/answer/2450962
+
+
+Requirement
+-----------
++ make
++ python3
++ wget
 
 
 License
