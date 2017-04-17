@@ -39,3 +39,5 @@ Feeds
 - 232157 http://www.city.inuyama.aichi.jp/shisei/toukei/1003763.html
 - 252069 http://www.city.kusatsu.shiga.jp/kurashi/kotsudorokasen/mamebus/opendata.html
 - 261009 https://data.city.kyoto.lg.jp/node/14553
+
+- http://opentrans.it/#/aboutus
