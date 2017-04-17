@@ -35,8 +35,14 @@ Feeds
 - 012050 [道南バスGTFS化プロジェクト](https://github.com/aruneko/DonanBusGTFS)
 - 172111 [能美市コミュニティバス時刻表及び経路GTFSデータ](http://www.city.nomi.ishikawa.jp/chiiki/NomiVitalization/opendata.html)
 
+- 092011 http://www.city.utsunomiya.tochigi.jp/shisei/johokokai/opendata/kotsu/index.html
+- 092088 https://www.city.oyama.tochigi.jp/gyosei/johokokai/opendata/opendata_D120500B.html
+- 132012 http://www.city.hachioji.tokyo.jp/contents/open/002/p005870.html
+- 172120 https://www.city.nonoichi.lg.jp/hisyo/opendata/opendata_top.html
+- 172057 http://www.city.suzu.lg.jp/soumu/opendata_index.html#koutuu
 - 182079 http://www.city.sabae.fukui.jp/users/tutujibus/web-api/web-api.html
 - 232157 http://www.city.inuyama.aichi.jp/shisei/toukei/1003763.html
+- 232262 https://www.city.owariasahi.lg.jp/sisei/data/jyumin.html#kotu
 - 252069 http://www.city.kusatsu.shiga.jp/kurashi/kotsudorokasen/mamebus/opendata.html
 - 261009 https://data.city.kyoto.lg.jp/node/14553
 
