@@ -7,6 +7,7 @@ import os.path
 import re
 import json
 import glob
+import collections
 
 def write_data(fp, data):
 	fields = set()
@@ -107,8 +108,8 @@ if __name__=="__main__":
 		write_data(f, feed_info)
 	
 	trips = []
-	stations = set()
-	route_stops = set()
+	stations = collections.OrderedDict()
+	route_stops = collections.OrderedDict()
 	for src in glob.glob(os.path.join(opts.src, "*_[h,w]_*.csv")):
 		sname = os.path.basename(src)
 		m = re.match(r"open_(?P<route>\w+)_(?P<cal>w|h)_(?P<dir>east|west).csv", sname)
@@ -121,8 +122,8 @@ if __name__=="__main__":
 					name = name[:-1]
 				
 				if name not in ("始発駅","行先駅"):
-					stations.add(name)
-					route_stops.add((name,info["route"]))
+					stations[name] = True
+					route_stops[(name,info["route"])] = True
 	
 	stop_info = {("谷上","seishin"):{ "駅番号":"S01", "駅構内図":""}}
 	stop_name_alias = {
@@ -144,7 +145,7 @@ if __name__=="__main__":
 			)] = row
 	
 	stops = []
-	for name in stations:
+	for name in stations.keys():
 		stops.append(dict(
 			stop_id=name,
 			stop_name=name,
@@ -154,7 +155,7 @@ if __name__=="__main__":
 			wheelchair_boarding=1,
 		))
 	
-	for name, route in route_stops:
+	for name, route in route_stops.keys():
 		info = stop_info[(name, route)]
 		lat = geo[name]["lat"]
 		lon = geo[name]["lon"]
